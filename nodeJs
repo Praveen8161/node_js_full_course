@@ -1,0 +1,7 @@
+Node JS have multi-thread because
+libuv c based package in Node JS give 4 extra thread 
+and we can upto 100 thread
+
+// Render Deploy
+
+Build Command - npm install
