@@ -14,7 +14,7 @@ const localString = process.env.LOCAL_URL ;
 
 async function dbConnection(){
     try{
-        const client = new MongoClient(connectionString);
+        const client = new MongoClient(localString);
         await client.connect();
         console.log("Database Connected");
         return client;
